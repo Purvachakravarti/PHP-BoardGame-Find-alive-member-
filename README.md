@@ -1,7 +1,5 @@
 # PHP-BoardGame-Find-alive-member
-<?php
 
-/*
 Go Life and Death
 The game of Go has been around for thousands of years and is known to have extremely complex strategy and depth. The rules of the game on the other hand, 
 are very simple. Pieces, or stones, are placed on the intersections of a square grid, with size s. Here is a representation of a 9x9 board with some black and white stones (○ ●):
@@ -156,16 +154,18 @@ array(array('.','.','.','o','#'),
 //  array('.','.','.','o','#'),
 //  array('.','.','.','o','#'),
 //  array('.','.','o','#','#'));
- 
-/*  $board = array(array('.','.','.','.','.'),
+
+Test Cases:
+Case:1
+ $board = array(array('.','.','.','.','.'),
                  array('.','o','.','.','.'),
                  array('.','#','o','.','.'),
                  array('.','.','.','.','.'),
                  array('.','.','.','.','.'));
   $check = array(2, 1);
-*/
 
 
+Case:2
  $board = array(array('.','.','.','.','.'),
                 array('.','#','#','#','.'),
                 array('#','#','o','o','o'),
@@ -173,4 +173,4 @@ array(array('.','.','.','o','#'),
                 array('.','.','.','.','.'));
  
  $check = array(2, 1);
- ?>
+
